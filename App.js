@@ -1,13 +1,7 @@
-
+import LoginPage from "./pages/LoginPage/LoginPage"
 export const App = () => {
   return (
-    <div className="App">
-      
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        
-    </div>
+    <LoginPage/>
   );
 }
 
